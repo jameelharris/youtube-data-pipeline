@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Data — don't commit the raw Citibike files (large; re-downloadable from source)
+*.csv
+*.zip
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+.databricks/
