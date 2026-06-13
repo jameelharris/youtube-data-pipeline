@@ -3,12 +3,18 @@ __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
 
-# Data — don't commit the raw Citibike files (large; re-downloadable from source)
-*.csv
-*.zip
+# Virtual environment
+.venv/
+venv/
+
+# Secrets — never commit API keys
+.env
+*.env
 
 # OS / editor
 .DS_Store
 .vscode/
 .idea/
+
+# Databricks
 .databricks/
