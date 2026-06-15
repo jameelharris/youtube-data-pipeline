@@ -18,3 +18,6 @@ venv/
 
 # Databricks
 .databricks/
+
+# Pipeline output
+raw_youtube.json
