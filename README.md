@@ -4,7 +4,7 @@ An end-to-end data pipeline on **Databricks** that ingests, classifies, and anal
 ~950-video YouTube catalog of the **Triton Poker Series**. The full analysis, findings, and
 content-strategy recommendation live in the notebook; this README covers the engineering.
 
-**Notebook:** [`triton_content_analysis.ipynb`](./triton_content_analysis.ipynb) *(analysis & findings)*
+**Notebook:** [`Triton Poker Channel Analytics.ipynb`](./Triton%20Poker%20Channel%20Analytics.ipynb) *(analysis & findings)*
 
 ---
 
@@ -87,7 +87,7 @@ table. Extraction logic is also packaged as a standalone, reusable script
 
 ```
 .
-├── triton_content_analysis.ipynb   # the pipeline + analysis (start here)
+├── Triton Poker Channel Analytics.ipynb   # the pipeline + analysis (start here)
 ├── ingest_youtube.py               # standalone REST extraction script
 ├── README.md
 └── .gitignore
